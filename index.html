@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMyTrip - #1 Travel website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Macondo&family=Oleo+Script+Swash+Caps&family=Roboto:ital,wght@1,100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/218b4f0971.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background">
+    <div class="container">
+        <img class="logo" src="https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/mmtLogoWhite.png" alt="imgerror">
+        <div class="data">
+            <div class="cardone">
+                <span><i class="fa-solid fa-plane-departure"></i>Flights</span>
+                <span><i class="fa-solid fa-hotel"></i>Hotel</span>
+                <span><i class="fa-solid fa-house"></i>Homestays</span>
+                <span><i class="fa-solid fa-parachute-box"></i>Holiday Packages</span>
+                <span><i class="fa-solid fa-train"></i>Trains</span>
+                <span><i class="fa-solid fa-bus"></i>Buses</span>
+                <span><i class="fa-solid fa-taxi"></i>Cabs</span>
+                <span><i class="fa-solid fa-money-bill-1"></i>Forex</span>
+                <span><i class="fa-solid fa-jet-fighter"></i>Charter Flights</span>
+                <span><i class="fa-solid fa-person-hiking"></i>Activites</span>
+            </div>
+            <div class="cardtwo">
+                <div class="cardtwoa">
+                    <div class="cardtwoaa"> 
+                        <span class="select"><input type="radio">
+                        <label for="">ONEWAY</label></span>
+                        <span class=""><input type="radio">
+                        <label for="">ROUNDWAY</label></span>
+                        <span class=""><input type="radio">
+                        <label for="">MULTI CITY</label></span>
+                    </div>
+                    <div class="cardtwoab">Book&nbsp;<a href="" >International</a>&nbsp;and&nbsp;<a href="" >Domestic Flights</a></div>
+                </div>
+                <div class="cardtwob">
+                    <div class="bBox1">
+                        <div class="one">
+                            <label>
+                                <span class="onespn">FROM</span>
+                                <input class="oneinput" type="text" readonly value="Delhi">
+                                <p class="onep"title="DEL,Delhi Airport India">
+                                    <span title class="truncate airPortName">DEL,Delhi Airport India</span>
+                                </p>
+                            </label>
+                        </div>
+                        <span class="swip">
+                            <span class="swipIcon"><i class="fa-solid fa-arrow-right-arrow-left"></i></span>
+                        </span>
+                        <div class="one">
+                            <label>
+                                <span class="onespn">TO</span>
+                                <input class="oneinput" type="text" readonly value="Bengaluru">
+                                <p class="onep"title="BLR,Bengaluru International Airport India">
+                                    <span title class="truncate airPortName">BLR,Bengaluru International Airport...</span>
+                                </p>
+                            </label>
+                        </div>
+                        <div class="three">
+                            <label>
+                                <input type="date" value="2022-08-05" style="position: absolute; bottom: 4px; opacity: 0; cursor: pointer;">
+                                <span class="threespn">DEPARTURE</span>
+                                <input class="threeinput" id="threeinput" type="text" readonly value="Saturday, 30 Jul 2022">
+                                <p class="threep">
+                                    <span class="threepspnone">5</span>
+                                    <span style="color: black;">Aug'</span>
+                                    <span class="threepspnthree">22</span>
+                                </p>
+                                <p class="threepp">Wednesday</p>
+                            </label>
+                        </div>
+                        <div class="three">
+                            <label>
+                                <input type="date" value="2022-08-13" style="position: absolute; bottom: 4px; opacity: 0; cursor: pointer;">
+                                <span class="threespn">RETURN</span>
+                                <p class="returnp">Tap to add a return date for bigger discounts</p>
+                            </label>
+                        </div>
+                        <div class="five">
+                            <label>
+                                <span class="threespn">TRAVELLERS & CLASS</span>
+                                <p class="threep">
+                                    <span class="threepspnone">1</span>
+                                    <span style="color: black;">Traveller</span>
+                                </p>
+                                <p class="threepp">Economy/Premium Economy</p>
+                            </label>
+                            <div>
+                                <p>Group Booking Now Available</p>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="bBox2">
+                        <div class="bBox2left">
+                            <span>Select A<br>Fare Type:</span>
+                                <ul>
+                                    <li style=" background: #eaf5ff;"><input type="radio" checked><p>Regular<br>Fares</p></li>
+                                    <li><input type="radio"><div class="newlabel"><span>NEW</span></div><p>Armed Forces <br>Fares</p></li>
+                                    <li><input type="radio"><p>Student<br>Fares</p></li>
+                                    <li><input type="radio"><p>Senior Citizen<br>Fares</p></li>
+                                    <li><input type="radio"><p>Double seat<br>Fares</p></li>
+                                </ul>
+                        </div>
+                        <div class="bBox2right">
+                            <span>Trending Searches</span>
+                            <ul>
+                                <li><p>Delhi<span> --> </span>Kolkata</p></li>
+                                <li><p>Dubai<span> --> </span>Delhi</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="searchbtn">SEARCH</button>
+                </div>
+            </div>
+            <div class="explore">
+                <img src="downArrow.png" alt="LError" class="imgexplore">
+                <span class="explorenow">Explore Now</span>
+                <img src="downArrow.png" alt="RError" class="imgexplore">
+            </div>
+        </div>
+    </div>
+    <div class="divbeforecard">
+       <div>
+           <img src="where2goicon.png">
+           <p>Where2Go</p>
+       </div>
+       <div>
+           <img src="tripmoneyicon.png">
+           <p>Trip Money</p>
+       </div>
+       <div>
+           <img src="flightsicon.webp">
+           <p>Explore International Flights</p>
+       </div>
+       <div>
+           <img src="nearbyicon.png">
+           <p>Nearby Gateways</p>
+       </div>
+       <div>
+           <img src="gifticon.png">
+           <p>Gift Cards</p>
+       </div>
+    </div>
+    <div class="containertwo">
+        <div class="slideone">
+        <div class="sone">
+            <div>
+                <div class="insidesone">
+                   <div>
+                      <img src="https://promos.makemytrip.com/notification/xhdpi/Vande-Flight-10072020.png">
+                   </div>
+                   <div>
+                     <p>Students Special Helpline: Call 01244628747 </p>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="sone">
+            <div>
+                <div class="insidesone">
+                   <div>
+                      <img src="https://promos.makemytrip.com/Growth/Images/B2C/2x/language1@2x_20210901.png">
+                   </div>
+                   <div>
+                     <p>We are now available in हिंदी!</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="sone">
+            <div>
+                <div class="insidesone">
+                   <div>
+                      <img src="https://promos.makemytrip.com/appfest/2x/quarantine.png">
+                   </div>
+                   <div>
+                     <p>Many international destinations open for Indians now</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="twoBox">
+            <div class="Boxcontent">
+                <h1>Super Offers</h1>
+                <div>
+                    <h3>ALL OFFERS</h3>
+                    <h3>BANK OFFERS</h3>
+                    <h3>DOMESTIC FLIGHTS</h3>
+                    <h3>MORE</h3>
+                </div>
+            </div>
+            <div style="width: 90%; margin: auto;">
+                <div class="divone">
+                    <div>
+                        <div class="divtwo">
+                            <button style="border: none; background-color: white;"><i class="fa-solid fa-arrow-left"></i></button>
+                            <div class="afterbuttonone">
+                                <div class="afterbuttontwo">
+                                    <div class="slidetwo">
+                                        <div class="divthree">
+                                            <div class="divfour">
+                                                <div>
+                                                    <img src="https://promos.makemytrip.com/notification/xhdpi//nbt-common-116x116-25072022.jpg">
+                                                    <span>T&C'sApply</span>
+                                                </div>
+                                                <div>
+                                                    <h3>GENERAL</h3>
+                                                    <h2>#JoHogaWOWhoga: Book your flights at 30% off now.</h2>
+                                                    <div class="divfive">
+                                                        <p>Offer valid at HDFC credit card and EasyEMI.</p>
+                                                        <h4>Explore Now</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="divthree">
+                                            <div class="divfour">
+                                                <div>
+                                                    <img src="https://promos.makemytrip.com/notification/xhdpi//train05-116x116-06012021.jpg">
+                                                    <span>T&C'sApply</span>
+                                                </div>
+                                                <div>
+                                                    <h3>DOM FLIGHTS</h3>
+                                                    <h2>Up to Rs.1500 Cashback on Domestic Flights!</h2>
+                                                    <div class="divfive">
+                                                        <p>Validon Axis Bank Credit & Debit Cards </p>
+                                                        <h4>Explore Now</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button style="border: none; background-color: white;"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="loancard">
+            <div class="loandiv1">
+                <div class="loandiv2">
+                    <img class="imgtrpmoney" src="https://www.tripmoney.com/ext/static/TravelLoan/travelLoan.png" alt="Error">
+                    <div style="width: 1079px;">
+                        <div class="spa1n">
+                            <h3>Personal loan</h3>
+                            <p>Get upto ₹1 lakh for booking flights, hotels & more.</p>
+                            <span>APPLY NOW</span>
+                        </div>
+                        <div class="span2"></div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+    <div class="foot">s
+          <div class="div2">
+              <h3>PRODUCT OFFERING</h3>
+              <p>Flights,International Flights,Charter Flights,Hotels,International Hotels,Homestays and Villas,Activites,Holidays In India,International Holidays,Book Hotels From UAE,myBiz for SME Travel,Book Online Cabs,Book Bus Tickets,Book Train Tickets,Cheap Tickets to India,Book Flights From UAE,Trip Planner,Gift Cards,Trip Money,Trip Ideas,Travel Blog,PNR Status,MakeMyTrip Advertising Solutions,One Way Cab</p>
+              <h3>MAKEMYTRIP</h3>
+              <p>About Us,Investor Relations,Careers,Coperate Travel,MMT Foundation,CSR Policy,myPartner-Travel Agent Portal,Foreign Exchange,List your hotel,Parterns-Redbus,Partners-Goibibo,Advertise with Us</p>
+              <h3>ABOUT THE SITE</h3>
+              <p>Customer Support,Payment Security,Privacy Policy,User Agreement,Terms of Service,More Offices,Make A Payment,Work From Home</p>
+            <h3>QUICK LINKS</h3>
+            <p>Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa Flights, Chennai Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi Flights, Rupsi to Guwahati Flights, Pasighat to Guwahati Flights, Delhi to Khajuraho Flights, Cochin to Agatti Island Flights, Hotels in Delhi, Hotels in Mumbai, Hotels In Goa, Hotels In Jaipur, Hotels In Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North Goa, Hotels In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages, Ladakh Packages, Goa Packages, Thailand Packages, Sri Lanka Visa, Thailand Visa, Explore Goa, Explore Manali, Explore Shimla, Explore Jaipur, Explore Srinagar</p>
+            <h3>IMPORTANT LINKS</h3>
+            <p>Cheap Flights, Flight Status, Kumbh Mela, Domestic Airlines, International Airlines, Indigo, Spicejet, GoAir, Air Asia, Air India, Indian Railways, Corporate Flight Booking, Trip Ideas, Beaches, Honeymoon Destinations, Romantic Destinations, Popular Destinations, Resorts In Udaipur, Resorts In Munnar, Villas In Lonavala, Villas In Goa, Domestic Flight Offers, International Flight Offers, UAE Flight Offers, USA, UAE, Saudi Arabia, UK, Oman</p>
+          </div>
+          <div class="div3">
+            <div>
+                <h3>Why MakeMyTrip?</h3>
+                <p>Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.</p>
+            </div>
+            <div>
+                <h3>Booking Flights with MakeMyTrip</h3>
+                <p>At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.</p>
+            </div>
+            <div>
+                <h3>Domestic Flights with MakeMyTrip</h3>
+                <p>MakeMyTrip is India's leading player for flight bookings, and have a dominant position in the domestic flights sector. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
+            </div>
+          </div>
+          <div class="div4">
+            <div class="fb">
+                <div class="iconn">
+                    <div><i class="fa-brands fa-square-twitter"></i></div>
+                    <div><i class="fa-brands fa-facebook-f"></i></div>
+                </div>
+                <div class="copy">
+                    <p>© 2021 MAKEMYTRIP PVT. LTD.</p>
+                    <p>Country India USA UAE</p>
+                </div>
+            </div>
+          </div>
+    </div>
+</footer>
+    <script src="https://kit.fontawesome.com/218b4f0971.js" crossorigin="anonymous"></script>
+</body>
+</html>
